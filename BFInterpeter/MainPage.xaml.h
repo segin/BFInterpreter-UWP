@@ -17,5 +17,7 @@ namespace BFInterpeter
 	public:
 		MainPage();
 
+	private:
+		void runCode_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
 	};
 }

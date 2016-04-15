@@ -8,6 +8,12 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Button x:Name="runCode" Content="Run" HorizontalAlignment="Right" Margin="0,10,10,0" VerticalAlignment="Top" Width="65" Click="runCode_Click"/>
+        <TextBlock x:Name="codeLabel" HorizontalAlignment="Left" Margin="10,37,0,0" TextWrapping="Wrap" Text="Code:" VerticalAlignment="Top" FontStyle="Italic"/>
+        <TextBox x:Name="codeBox" Margin="10,62,10,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" FontFamily="Consolas"/>
+        <TextBlock x:Name="inputLabel" HorizontalAlignment="Left" Margin="10,99,0,0" TextWrapping="Wrap" Text="Input:" VerticalAlignment="Top" FontStyle="Italic" />
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="10,161,0,0" TextWrapping="Wrap" Text="Output:" VerticalAlignment="Top" FontStyle="Italic"/>
+        <TextBox x:Name="textBox" Margin="10,124,10,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" RenderTransformOrigin="0.831,3.594"/>
 
     </Grid>
 </Page>

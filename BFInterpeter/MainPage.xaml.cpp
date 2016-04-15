@@ -25,3 +25,10 @@ MainPage::MainPage()
 {
 	InitializeComponent();
 }
+
+
+
+void BFInterpeter::MainPage::runCode_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
+{
+
+}
